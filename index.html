@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Accretion Clicker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <h1>You've encountered a stellar accretion disk. This could take a while.</h1>
+
+  <div id="gameBox">
+    <div id="buttonRow">
+      <button id="clickMe"><span>100</span> kg</button>
+      <button class="buy" data-mass="1000" data-cost="5000">Automatter: Economy Class (0.5s) <span>5,000</span></button>
+      <button class="buy" data-mass="100000" data-cost="100000">Automatter: Deluxe Class (0.5s)<span>1e+5</span></button>
+      <button class="buy" data-mass="10000000000" data-cost="10000000000">Automatter: Bennu Class (1.0s)<span>1e+10</span></button>
+      <button class="buy" data-mass="100000000000000000000" data-cost="100000000000000000000">Automatter: Ceres Class (2.0s)<span>1e+20</span></button>
+      <button class="buy" data-mass="10000000000000000000000" data-cost="10000000000000000000000">Automatter: Luna Class (2.0s)<span>1e+22</span></button>
+    </div> 73500000000000000000000
+    <div id="sunPic"></div>
+    <div id="accretionBox">
+      <div id="reportMass"></div>
+      <div id="reportAuto"></div>
+      <p id="announce">
+        Turn this dusty old rock into a star!
+      </p>
+      <p id="instruct">
+        Click the round button to add mass directly. When you can afford them, Automatter machines will radidly accumulate mass for you, plus your click will add more mass!
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
